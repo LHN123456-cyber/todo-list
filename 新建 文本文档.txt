@@ -1,0 +1,12 @@
+git init：创建新的git仓库并创建文件夹，自动生成一个主分支
+git add：将修改的文件夹暂时放进缓存区
+git commit：将git add的内容提交给本地仓库和文件
+git push：将修改的文件传送到远端仓库
+git pull：将远端仓库的文件传回并合并到本地文件
+git clone：与git pull作用一致
+checkout -b：创建新分支并立即切换到该分支
+checkout main：切换到主分支
+merge：将新内容合并到主分支中
+merge --abort：终止合并并恢复到执行merge前的状态
+status：显示当前工作区和缓存区的状态，以及你所在的位置
+log --online：显示提交历史
